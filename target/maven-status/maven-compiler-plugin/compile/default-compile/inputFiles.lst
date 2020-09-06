@@ -1,0 +1,8 @@
+/Users/hamzakisac/eclipse-workspace/HubSpotAppTestNG_POM2/src/main/java/com/qa/hubspot/base/BasePage.java
+/Users/hamzakisac/eclipse-workspace/HubSpotAppTestNG_POM2/src/main/java/com/qa/hubspot/page/HomePage.java
+/Users/hamzakisac/eclipse-workspace/HubSpotAppTestNG_POM2/src/main/java/com/qa/hubspot/util/ElementUtil.java
+/Users/hamzakisac/eclipse-workspace/HubSpotAppTestNG_POM2/src/main/java/com/qa/hubspot/util/AppConstants.java
+/Users/hamzakisac/eclipse-workspace/HubSpotAppTestNG_POM2/src/main/java/com/qa/hubspot/page/LoginPage.java
+/Users/hamzakisac/eclipse-workspace/HubSpotAppTestNG_POM2/src/main/java/com/qa/hubspot/util/Credentials.java
+/Users/hamzakisac/eclipse-workspace/HubSpotAppTestNG_POM2/src/main/java/com/qa/hubspot/base/OptionsManager.java
+/Users/hamzakisac/eclipse-workspace/HubSpotAppTestNG_POM2/src/main/java/com/qa/hubspot/util/JavaScriptUtil.java

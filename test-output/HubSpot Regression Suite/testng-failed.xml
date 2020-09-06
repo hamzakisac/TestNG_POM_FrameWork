@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [HubSpot Regression Suite]" parallel="tests">
+  <test thread-count="3" name="HubSpot Functional Regression Test -- firefox(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qa.hubspot.test.HomePageTest">
+        <methods>
+          <include name="getAccountNameTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyHomePageHeaderTest"/>
+          <include name="tearDowntest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.test.HomePageTest -->
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <methods>
+          <include name="verifyPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="verifySignUpLinkTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+    </classes>
+  </test> <!-- HubSpot Functional Regression Test - firefox(failed) -->
+  <test thread-count="3" name="HubSpot Functional Regression Test -- chrome(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.hubspot.test.HomePageTest">
+        <methods>
+          <include name="verifyHomePageHeaderTest"/>
+          <include name="tearDowntest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.test.HomePageTest -->
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+    </classes>
+  </test> <!-- HubSpot Functional Regression Test - chrome(failed) -->
+</suite> <!-- Failed suite [HubSpot Regression Suite] -->
